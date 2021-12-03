@@ -1,0 +1,68 @@
+/* General button style */
+.text_button {
+  border: none;
+  font-size: inherit;
+  background: #aaa1c8;
+  color: black;
+  cursor: pointer;
+  padding: 15px 80px;
+  display: inline-block;
+  margin: 5px 15px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  transition: all 0.3s;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  display: inline-block;
+  box-shadow: 3px 3px 5px gray;
+}
+
+.single_button {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.single_button:disabled,
+.single_button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: black;
+}
+
+/* Button 1 */
+.text_button:hover {
+  color: white;
+  background: slateblue;
+}
+
+.text_button:active {
+  color: white;
+  background: darkslateblue;
+  top: 2px;
+}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: larger;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -moz-font-feature-settings: "liga";
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: sub;
+  padding: 5px;
+}

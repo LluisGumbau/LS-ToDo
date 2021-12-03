@@ -1,0 +1,70 @@
+.categories_list_content {
+  display: none;
+  position: absolute;
+}
+
+.categories_list:hover .categories_list_content {
+  display: block;
+  position: relative;
+}
+.desplegar {
+  float: inline-end;
+}
+
+.input-category {
+  width: 200px;
+  height: auto;
+  position: relative;
+  display: block;
+  border-width: 0px;
+  background-color: #c6b0f0;
+}
+.dropbtn {
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  position: relative;
+  display: block;
+  border-width: 0px;
+  background-color: #c6b0f0;
+}
+.texto_categ {
+  vertical-align: left;
+}
+.input-category .box_colour {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  position: absolute;
+  left: 50px;
+  top: 2px;
+}
+.box_colour {
+  float: right;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  vertical-align: right;
+}
+
+.blue {
+  background: #13b4ff;
+}
+
+.purple {
+  background: #ab3fdd;
+}
+
+.wine {
+  background: #ae163e;
+}
+.green {
+  background: green;
+}
+
+.red {
+  background: red;
+}

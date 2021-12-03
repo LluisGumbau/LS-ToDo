@@ -1,0 +1,83 @@
+.checkbox {
+  background-color: white;
+  width: 120px;
+  height: 120px;
+  margin: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input.checkbox_element {
+  width: 30px;
+  height: 30px;
+}
+.taskphoto {
+  width: 80px;
+  height: 80px;
+  box-shadow: 3px 3px 5px gray;
+  align-self: center;
+  margin: 10px;
+}
+
+.mainbox {
+  background-color: white;
+  width: 900px;
+  height: 120px;
+  margin: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 3px 3px 5px gray;
+  display: flex;
+}
+.whole {
+  border-radius: 6px;
+  box-shadow: 3px 3px 5px gray;
+}
+.wholeclass {
+  display: flex;
+  flex-direction: row;
+}
+.test-of-class {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.task_attribute {
+  width: 550px;
+  font-size: 16px;
+  margin: 10px;
+  color: gray;
+}
+.tasktitle {
+  font-size: 26px;
+  margin: 10px;
+  word-spacing: 2px;
+}
+.elements {
+  display: flex;
+  flex-direction: column;
+}
+
+.column1 {
+  display: flex;
+  flex-direction: row;
+}
+.column2 {
+  display: flex;
+  flex-direction: row;
+}
+.state_text {
+  margin: 10px;
+}
+.urgent {
+  margin: 10px;
+}
+.class_task {
+  margin: 10px;
+}
+.category_text {
+  margin: 10px;
+}
